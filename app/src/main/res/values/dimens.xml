@@ -10,4 +10,5 @@
     <dimen name="bmi_result">30sp</dimen>
     <dimen name="bmi_description">30sp</dimen>
     <dimen name="output_activity_main_margin_bottom">100dp</dimen>
+    <dimen name="button_margin_top">15dp</dimen>
 </resources>
