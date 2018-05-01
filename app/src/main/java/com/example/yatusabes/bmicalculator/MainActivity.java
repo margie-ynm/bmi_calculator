@@ -92,10 +92,10 @@ public class MainActivity extends AppCompatActivity {
         bmi = Math.round(bmi * 10.0) / 10.0;
 
 
-        TextView answerField = (TextView) findViewById(R.id.bmi_result);
-        answerField.setText(bmi + "");
+        Intent intent = new Intent(this, OutputActivity.class);
 
-        
+        intent.putExtra("Calculated BMI", bmi);
+        startActivity(intent);
     }
 
 
