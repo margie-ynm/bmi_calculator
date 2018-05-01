@@ -11,8 +11,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    double POUNDS_PER_KILO = 2.20462;
-    double INCHES_PER_METER = 39.3701;
+    private static final String LOG_TAG = "InputActivity";
+    private static final double POUNDS_PER_KILO = 2.20462;
+    private static final double INCHES_PER_METER = 39.3701;
 
 
     @Override
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             weightInlbs = Double.parseDouble(weightString);
         }
         catch (Exception e) {
+            Log.e(LOG_TAG, "Invalid float from input for weight: " + weightString);
             Toast.makeText(this, "Please enter a numeric value for weight.", Toast.LENGTH_LONG).show();
             return;
         }
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
             heightInfeet = Integer.parseInt(feetString);
         }
         catch (Exception e) {
+            Log.e(LOG_TAG, "Invalid integer from input for number of feet: " + feetString);
             Toast.makeText(this, "Please enter a numeric value for height", Toast.LENGTH_LONG).show();
             return;
         }
@@ -71,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             heightInInches = Integer.parseInt(inchesString);
         }
         catch (Exception e) {
+            Log.e(LOG_TAG, "Invalid integer from input for inches: " + inchesString);
             Toast.makeText(this, "Please enter a numeric value for inches", Toast.LENGTH_LONG).show();
             return;
         }
