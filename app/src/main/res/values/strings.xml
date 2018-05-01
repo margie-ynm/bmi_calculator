@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BMI Calculator</string>
+    <string name="title_find_out_your_bmi">Find Out Your BMI</string>
 </resources>
