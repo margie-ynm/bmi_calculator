@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
+    android:paddingLeft="@dimen/main_padding_left"
+    android:paddingRight="@dimen/main_padding_right"
     android:gravity="center">
 
     <TextView
@@ -17,22 +17,28 @@
         android:layout_height="wrap_content"
         android:text="@string/title_find_out_your_bmi"
         android:textAllCaps="true"
-        android:textSize="30sp"/>
+        android:textSize="@dimen/title_text_size"
+        android:layout_marginBottom="@dimen/margin_bottom"/>
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Weight"/>
+        android:text="Weight"
+        android:layout_marginTop="@dimen/margin_top"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top">
 
         <EditText
             android:id="@+id/weight_input"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="8"/>
+            android:ems="8"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,12 +51,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Height"/>
+        android:text="Height"
+        android:layout_marginTop="@dimen/margin_top"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top">
 
         <EditText
             android:id="@+id/feet_input"

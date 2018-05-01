@@ -11,6 +11,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView m_my_title;
+
     private static final String LOG_TAG = "InputActivity";
     private static final double POUNDS_PER_KILO = 2.20462;
     private static final double INCHES_PER_METER = 39.3701;
@@ -20,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        m_my_title = (TextView) findViewById(R.id.my_title);
+        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/ostrich-regular.ttf");
+        m_my_title.setTypeface(ostrichFont);
 
     }
 
