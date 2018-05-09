@@ -64,7 +64,6 @@
 
         </LinearLayout>
 
-
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -78,14 +77,12 @@
                 android:text="Height"
                 android:textSize="20sp"
                 android:layout_marginBottom="20dp"
-                android:layout_gravity="center"
-                />
+                android:layout_gravity="center"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
 
                 <EditText
                     android:id="@+id/feet_input"
@@ -101,7 +98,6 @@
                     android:layout_height="wrap_content"
                     android:text="ft"
                     android:layout_marginRight="10dp"/>
-
 
                 <EditText
                     android:id="@+id/inches_input"

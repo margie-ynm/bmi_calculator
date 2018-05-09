@@ -6,11 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".OutputActivity"
     android:gravity="center"
-    android:orientation="vertical"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/output_activity_main_margin_bottom"
     android:paddingLeft="@dimen/main_padding_left"
     android:paddingRight="@dimen/main_padding_right"
-    android:layout_marginBottom="@dimen/output_activity_main_margin_bottom"
-    android:layout_marginTop="25dp">
+    android:weightSum="10"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:gravity="center">
 
         <TextView
             android:id="@+id/bmi_result"
@@ -24,13 +32,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            android:textSize="@dimen/bmi_description"
-            android:layout_marginBottom="25dp"/>
+            android:textSize="@dimen/bmi_description"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/bmi"/>
+            android:src="@drawable/bmi" />
+
+    </LinearLayout>
 
 </LinearLayout>
-
