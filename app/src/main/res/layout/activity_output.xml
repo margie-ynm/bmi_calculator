@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/main_padding_left"
     android:paddingRight="@dimen/main_padding_right"
     android:layout_marginBottom="@dimen/output_activity_main_margin_bottom"
-    android:layout_marginTop="25dp">
+    android:layout_marginTop="@dimen/margin_top_linear">
 
         <TextView
             android:id="@+id/bmi_result"

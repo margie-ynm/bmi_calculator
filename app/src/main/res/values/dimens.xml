@@ -14,5 +14,15 @@
     <dimen name="height_label_text_size">20sp</dimen>
     <dimen name="weight_label_text_size">20sp</dimen>
     <dimen name="margin_top_height_label">20dp</dimen>
+    <dimen name="margin_bottom_weight_label">20dp</dimen>
+    <dimen name="margin_top_weight_input">10dp</dimen>
+    <dimen name="margin_bottom_height_label">20dp</dimen>
+    <dimen name="margin_top_feet_input">10dp</dimen>
+    <dimen name="margin_right_ft_text">10dp</dimen>
+    <dimen name="width_default">0dp</dimen>
+    <dimen name="margin_top_inches_input">10dp</dimen>
+    <dimen name="margin_left_inches_input">10dp</dimen>
+    <dimen name="linear_margin_top">50dp</dimen>
+    <dimen name="margin_top_linear">25dp</dimen>
 
 </resources>
