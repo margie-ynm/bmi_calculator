@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de Indice de Masa Corporal</string>
+    <string name="title_find_out_your_bmi">Descubra su IMC</string>
+    <string name="weight_label">Peso</string>
+    <string name="lbs_label">lbs</string>
+    <string name="height_label">Altura</string>
+    <string name="ft_label">pies</string>
+    <string name="in_label">pulgadas</string>
+    <string name="calculate_button_label">Calcular</string>
+    <string name="underweight_bmi">IMC Peso bajo</string>
+    <string name="normal_bmi">IMC normal</string>
+    <string name="overweight_bmi">IMC con sobrepeso</string>
+    <string name="obese_bmi">IMC obeso</string>
+</resources>

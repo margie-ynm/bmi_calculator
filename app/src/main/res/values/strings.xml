@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">BMI Calculator</string>
     <string name="title_find_out_your_bmi">Find Out Your BMI</string>
+    <string name="weight_label">Weight</string>
+    <string name="lbs_label">lbs</string>
+    <string name="height_label">Height</string>
+    <string name="ft_label">ft</string>
+    <string name="in_label">in</string>
+    <string name="calculate_button_label">Calculate</string>
+    <string name="underweight_bmi">Underweight BMI</string>
+    <string name="normal_bmi">Normal BMI</string>
+    <string name="overweight_bmi">Overweight BMI</string>
+    <string name="obese_bmi">Obese BMI</string>
 </resources>

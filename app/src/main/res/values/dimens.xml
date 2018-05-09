@@ -11,4 +11,6 @@
     <dimen name="bmi_description">45sp</dimen>
     <dimen name="output_activity_main_margin_bottom">100dp</dimen>
     <dimen name="button_margin_top">15dp</dimen>
+    <dimen name="height_label_text_size">20sp</dimen>
+    <dimen name="weight_label_text_size">20sp</dimen>
 </resources>

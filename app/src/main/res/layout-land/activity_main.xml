@@ -15,7 +15,7 @@
         android:id="@+id/my_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find out Your BMI"
+        android:text="@string/title_find_out_your_bmi"
         android:textAllCaps="true"
         android:textSize="@dimen/title_text_size"
         android:textAlignment="center"
@@ -39,9 +39,9 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:textSize="@dimen/weight_label_text_size"
                 android:layout_marginBottom="20dp"
-                android:text="Weight" />
+                android:text="@string/weight_label" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="lbs" />
+                    android:text="@string/lbs_label" />
             </LinearLayout>
 
         </LinearLayout>
@@ -74,8 +74,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Height"
-                android:textSize="20sp"
+                android:text="@string/height_label"
+                android:textSize="@dimen/height_label_text_size"
                 android:layout_marginBottom="20dp"
                 android:layout_gravity="center"/>
 
@@ -96,7 +96,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ft"
+                    android:text="@string/ft_label"
                     android:layout_marginRight="10dp"/>
 
                 <EditText
@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="in"/>
+                    android:text="@string/in_label"/>
 
             </LinearLayout>
 
@@ -125,6 +125,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="@dimen/button_margin_top">
+
         <Button
             android:id="@+id/calculate"
             android:onClick="calculateBMI"
@@ -132,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/button_margin_top"
-            android:text="Calculate"/>
+            android:text="@string/calculate_button_label"/>
 
     </LinearLayout>
 

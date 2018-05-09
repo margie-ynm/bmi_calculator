@@ -22,11 +22,11 @@
         android:layout_marginBottom="@dimen/margin_bottom"/>
 
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Weight"
-        android:layout_marginTop="@dimen/weight_margin_top"/>
+        android:text="@string/weight_label"
+        android:layout_marginTop="@dimen/weight_margin_top"
+        android:textSize="@dimen/weight_label_text_size"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -39,22 +39,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="8"
-            android:textAlignment="center"
-            />
+            android:textAlignment="center"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="lbs"/>
+            android:text="@string/lbs_label"/>
     </LinearLayout>
-
-
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Height"
-        android:layout_marginTop="@dimen/margin_top"/>
+        android:text="@string/height_label"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="@dimen/height_label_text_size"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -73,7 +71,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ft"/>
+            android:text="@string/ft_label"/>
 
         <EditText
             android:id="@+id/inches_input"
@@ -86,9 +84,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="in"/>
+            android:text="@string/in_label"/>
     </LinearLayout>
-
 
     <Button
         android:id="@+id/calculate"
@@ -96,8 +93,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/button_margin_top"
-        android:text="Calculate"/>
-
-
+        android:text="@string/calculate_button_label"/>
 
 </LinearLayout>

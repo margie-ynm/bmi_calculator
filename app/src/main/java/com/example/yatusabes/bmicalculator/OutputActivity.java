@@ -33,13 +33,13 @@ public class OutputActivity extends AppCompatActivity {
 
     private String bmiDescription(double bmi) {
         if (bmi < 18.5) {
-            return "Underweight BMI";
+            return getString(R.string.underweight_bmi);
         } else if ((bmi >= 18.5) && (bmi <= 25.0)) {
-            return "Normal BMI";
+            return getString(R.string.normal_bmi);
         } else if ((bmi > 25 ) && (bmi <=30)) {
-            return "Overweight BMI";
+            return getString(R.string.overweight_bmi);
         } else {
-            return "Obese BMI";
+            return getString(R.string.obese_bmi);
         }
 
     }
