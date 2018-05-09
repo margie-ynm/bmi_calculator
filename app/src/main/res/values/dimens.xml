@@ -13,4 +13,6 @@
     <dimen name="button_margin_top">15dp</dimen>
     <dimen name="height_label_text_size">20sp</dimen>
     <dimen name="weight_label_text_size">20sp</dimen>
+    <dimen name="margin_top_height_label">20dp</dimen>
+
 </resources>

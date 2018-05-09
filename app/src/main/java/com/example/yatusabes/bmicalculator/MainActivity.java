@@ -52,13 +52,13 @@ public class MainActivity extends AppCompatActivity {
         }
         catch (Exception e) {
             Log.e(LOG_TAG, "Invalid float from input for weight: " + weightString);
-            Toast.makeText(this, "Please enter a numeric value for weight.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.numeric_value_for_weight, Toast.LENGTH_LONG).show();
             return;
         }
 
         // people who weigh less than a newborn do not need their BMI calculated
         if (weightInlbs < 10) {
-            Toast.makeText(this, "Please enter a reasonable value for weight.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.reasonable_value_for_weight, Toast.LENGTH_LONG).show();
             return;
         }
 
@@ -67,12 +67,12 @@ public class MainActivity extends AppCompatActivity {
         }
         catch (Exception e) {
             Log.e(LOG_TAG, "Invalid integer from input for number of feet: " + feetString);
-            Toast.makeText(this, "Please enter a numeric value for height", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.valid_number_value_height, Toast.LENGTH_LONG).show();
             return;
         }
 
         if ((heightInfeet < 1) || (heightInfeet > 8)) {
-            Toast.makeText(this, "Please enter a reasonable value for height in feet.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.reasonable_value_height_feet, Toast.LENGTH_LONG).show();
             return;
         }
 
@@ -81,12 +81,12 @@ public class MainActivity extends AppCompatActivity {
         }
         catch (Exception e) {
             Log.e(LOG_TAG, "Invalid integer from input for inches: " + inchesString);
-            Toast.makeText(this, "Please enter a numeric value for inches", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.valid_number_inches, Toast.LENGTH_LONG).show();
             return;
         }
 
-        if ((heightInInches < 1) || (heightInInches > 12)) {
-            Toast.makeText(this, "Please enter a reasonable value for height in inches.", Toast.LENGTH_LONG).show();
+        if ((heightInInches < 0) || (heightInInches > 11)) {
+            Toast.makeText(this, R.string.reasonable_value_inches, Toast.LENGTH_LONG).show();
             return;
         }
 

@@ -11,4 +11,10 @@
     <string name="normal_bmi">Normal BMI</string>
     <string name="overweight_bmi">Overweight BMI</string>
     <string name="obese_bmi">Obese BMI</string>
+    <string name="numeric_value_for_weight">Please enter a numeric value for weight.</string>
+    <string name="reasonable_value_for_weight">Please enter a reasonable value for weight.</string>
+    <string name="valid_number_value_height">Please enter a numeric value for height in feet.</string>
+    <string name="reasonable_value_height_feet">Please enter a reasonable value for height in feet.</string>
+    <string name="valid_number_inches">Please enter a numeric value for inches.</string>
+    <string name="reasonable_value_inches">Please enter a reasonable value for height in inches.</string>
 </resources>

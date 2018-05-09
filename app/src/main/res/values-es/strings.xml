@@ -12,4 +12,10 @@
     <string name="normal_bmi">IMC normal</string>
     <string name="overweight_bmi">IMC con sobrepeso</string>
     <string name="obese_bmi">IMC obeso</string>
+    <string name="numeric_value_for_weight">Por favor ingrese un valor numérico para el peso.</string>
+    <string name="reasonable_value_for_weight">Por favor ingrese un valor razonable para el peso.</string>
+    <string name="valid_number_value_height">Por favor ingrese un valor numérico para la altura en pies.</string>
+    <string name="reasonable_value_height_feet">Por favor ingrese un valor razonable para la altura en pies.</string>
+    <string name="valid_number_inches">Por favor ingrese un valor numérico para pulgadas.</string>
+    <string name="reasonable_value_inches">Ingrese un valor razonable para la altura en pulgadas.</string>
 </resources>
