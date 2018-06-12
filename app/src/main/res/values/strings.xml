@@ -17,4 +17,7 @@
     <string name="reasonable_value_height_feet">Please enter a reasonable value for height in feet.</string>
     <string name="valid_number_inches">Please enter a numeric value for inches.</string>
     <string name="reasonable_value_inches">Please enter a reasonable value for height in inches.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
